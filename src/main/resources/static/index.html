@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="search">
+<head>
+    <title>Searchable-data</title>
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+<div ng-controller="searchController">
+    <p><input ng-model="searchString" type="search" name="q" placeholder="Search"/><button ng-click="search()">Search</button></p>
+    <h5 ng-repeat="d in data">
+        Name: {{d.name}}<br/>
+        Type: {{d.type}}<br/>
+        Designed by: {{d.designedBy}}
+    </h5>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "A+",
+    "Type": "Array",
+    "Designed by": "Arthur Whitney"
+  },
+  {
+    "Name": "ActionScript",
+    "Type": "Compiled, Curly-bracket, Procedural, Reflective, Scripting, Object-oriented class-based",
+    "Designed by": "Gary Grossman"
+  },
+  {
+    "Name": "Ada",
+    "Type": "Compiled, Imperative, Procedural, Object-oriented class-based",
+    "Designed by": "Tucker Taft, Jean Ichbiah"
+  }
+]
