@@ -26,6 +26,10 @@
         gradle clean bootRun
 
     go to http://localhost:8080
+    
+    if you don't have gradle you can use the same command with gradlew
+    cd $home_project_dir
+    ./gradlew clean bootRun
 
 
 **Examples**
